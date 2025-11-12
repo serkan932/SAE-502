@@ -1,0 +1,11 @@
+Nov 12 15:02:07.084 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 12 15:02:07.086 HYPERVISOR: Started on IP = localhost, TCP port = 50470.
+Nov 12 15:02:07.551 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 12 15:02:07.552 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\miham\Desktop\Workspace\SAE-502\SAE-502\project-files\dynamips 
+Nov 12 15:02:07.552 GENERAL: working_dir=C:\Users\miham\Desktop\Workspace\SAE-502\SAE-502\project-files\dynamips
+Nov 12 15:02:07.552 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+Nov 12 15:02:53.311 HYPERVISOR: exec_cmd: nio_bridge rename Hub1 DHCP 
+Nov 12 15:04:13.114 HYPERVISOR: exec_cmd: nio_bridge delete DHCP 
+Nov 12 15:04:13.116 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 12 15:04:13.194 HYPERVISOR: Stopped.
+Nov 12 15:04:13.194 GENERAL: reset done.
