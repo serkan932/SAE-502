@@ -1,0 +1,28 @@
+Nov 18 19:27:24.395 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 18 19:27:24.395 HYPERVISOR: Started on IP = localhost, TCP port = 52950.
+Nov 18 19:27:24.834 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 18 19:27:24.835 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wasim\OneDrive\Desktop\Workspace\SAE-502\SAE-502\project-files\dynamips 
+Nov 18 19:27:24.835 GENERAL: working_dir=C:\Users\wasim\OneDrive\Desktop\Workspace\SAE-502\SAE-502\project-files\dynamips
+Nov 18 19:27:24.837 HYPERVISOR: exec_cmd: ethsw create S2 
+Nov 18 19:27:29.648 HYPERVISOR: exec_cmd: nio create_udp udp-0c7162e3-4666-46c7-a1ef-2a8eca8dd65f 10007 127.0.0.1 10006 
+Nov 18 19:27:29.678 HYPERVISOR: exec_cmd: ethsw add_nio S2 udp-0c7162e3-4666-46c7-a1ef-2a8eca8dd65f 
+Nov 18 19:27:29.695 HYPERVISOR: exec_cmd: ethsw set_access_port S2 udp-0c7162e3-4666-46c7-a1ef-2a8eca8dd65f 1 
+Nov 18 19:27:29.775 HYPERVISOR: exec_cmd: nio create_udp udp-2d28cbbc-3279-40bd-85da-69d8faa550da 10008 127.0.0.1 10009 
+Nov 18 19:27:29.775 HYPERVISOR: exec_cmd: ethsw add_nio S2 udp-2d28cbbc-3279-40bd-85da-69d8faa550da 
+Nov 18 19:27:29.788 HYPERVISOR: exec_cmd: ethsw set_access_port S2 udp-2d28cbbc-3279-40bd-85da-69d8faa550da 1 
+Nov 18 19:27:29.891 HYPERVISOR: exec_cmd: nio create_udp udp-23bf0e5e-8638-4228-94ec-637bc8cf4b8e 10010 127.0.0.1 10011 
+Nov 18 19:27:29.894 HYPERVISOR: exec_cmd: ethsw add_nio S2 udp-23bf0e5e-8638-4228-94ec-637bc8cf4b8e 
+Nov 18 19:27:29.915 HYPERVISOR: exec_cmd: ethsw set_access_port S2 udp-23bf0e5e-8638-4228-94ec-637bc8cf4b8e 1 
+Nov 18 19:27:30.020 HYPERVISOR: exec_cmd: nio create_udp udp-3a6833cb-c878-4827-b345-591ab43b46f2 10012 127.0.0.1 10013 
+Nov 18 19:27:30.020 HYPERVISOR: exec_cmd: ethsw add_nio S2 udp-3a6833cb-c878-4827-b345-591ab43b46f2 
+Nov 18 19:27:30.045 HYPERVISOR: exec_cmd: ethsw set_access_port S2 udp-3a6833cb-c878-4827-b345-591ab43b46f2 1 
+Nov 18 19:27:30.157 HYPERVISOR: exec_cmd: nio create_udp udp-134c917a-1a6b-40df-8f5f-bc7931c3cf1e 10014 127.0.0.1 10015 
+Nov 18 19:27:30.157 HYPERVISOR: exec_cmd: ethsw add_nio S2 udp-134c917a-1a6b-40df-8f5f-bc7931c3cf1e 
+Nov 18 19:27:30.171 HYPERVISOR: exec_cmd: ethsw set_access_port S2 udp-134c917a-1a6b-40df-8f5f-bc7931c3cf1e 1 
+Nov 18 19:27:30.265 HYPERVISOR: exec_cmd: nio create_udp udp-e13395cc-1b51-4445-a79b-c6d558f083ea 10016 127.0.0.1 10017 
+Nov 18 19:27:30.266 HYPERVISOR: exec_cmd: ethsw add_nio S2 udp-e13395cc-1b51-4445-a79b-c6d558f083ea 
+Nov 18 19:27:30.298 HYPERVISOR: exec_cmd: ethsw set_access_port S2 udp-e13395cc-1b51-4445-a79b-c6d558f083ea 1 
+Nov 18 22:10:54.645 HYPERVISOR: exec_cmd: ethsw delete S2 
+Nov 18 22:10:54.823 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 18 22:10:55.314 HYPERVISOR: Stopped.
+Nov 18 22:10:55.315 GENERAL: reset done.

@@ -1,0 +1,2 @@
+*.gns3 filter=lfs diff=lfs merge=lfs -text
+*.ghost filter=lfs diff=lfs merge=lfs -text

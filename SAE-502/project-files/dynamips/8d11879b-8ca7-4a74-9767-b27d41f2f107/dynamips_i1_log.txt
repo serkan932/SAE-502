@@ -1,0 +1,10 @@
+Nov 18 19:14:16.216 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 18 19:14:16.222 HYPERVISOR: Started on IP = localhost, TCP port = 65045.
+Nov 18 19:14:16.435 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 18 19:14:16.438 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wasim\OneDrive\Desktop\Workspace\SAE-502\SAE-502\project-files\dynamips 
+Nov 18 19:14:16.449 GENERAL: working_dir=C:\Users\wasim\OneDrive\Desktop\Workspace\SAE-502\SAE-502\project-files\dynamips
+Nov 18 19:14:16.449 HYPERVISOR: exec_cmd: ethsw create S3 
+Nov 18 19:14:18.931 HYPERVISOR: exec_cmd: ethsw delete S3 
+Nov 18 19:14:18.948 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 18 19:14:18.970 HYPERVISOR: Stopped.
+Nov 18 19:14:18.970 GENERAL: reset done.
