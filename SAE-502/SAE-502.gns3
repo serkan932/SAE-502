@@ -532,9 +532,21 @@
             },
             {
                 "filters": {},
-                "link_id": "def90b20-1bb6-490b-a30e-4932321184d5",
+                "link_id": "9573aef2-60f9-4cb1-8b60-57ec27220963",
                 "link_style": {},
                 "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "nat0",
+                            "x": 159,
+                            "y": 35
+                        },
+                        "node_id": "e769fc68-1ffa-4594-ad6f-63c15e044761",
+                        "port_number": 0
+                    },
                     {
                         "adapter_number": 1,
                         "label": {
@@ -542,22 +554,10 @@
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
                             "x": -6,
-                            "y": 22
+                            "y": 21
                         },
                         "node_id": "545e355d-0e56-4178-af32-fdbc24a1a339",
                         "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "Wi-Fi",
-                            "x": 159,
-                            "y": 33
-                        },
-                        "node_id": "f568c05b-7254-422f-bd04-43e4b1898e35",
-                        "port_number": 3
                     }
                 ],
                 "suspend": false
@@ -778,12 +778,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC7",
-                    "x": 16,
+                    "text": "mE",
+                    "x": 19,
                     "y": -25
                 },
                 "locked": false,
-                "name": "PC7",
+                "name": "mE",
                 "node_id": "60b164ce-6d55-4ea8-9c2a-6bfbe344e924",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -807,12 +807,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC8",
-                    "x": 16,
+                    "text": "m5",
+                    "x": 19,
                     "y": -25
                 },
                 "locked": false,
-                "name": "PC8",
+                "name": "m5",
                 "node_id": "008dcc9a-68c7-4489-878c-13c056545d66",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -836,12 +836,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC9",
-                    "x": 16,
+                    "text": "mF",
+                    "x": 20,
                     "y": -25
                 },
                 "locked": false,
-                "name": "PC9",
+                "name": "mF",
                 "node_id": "c42531ea-5e28-458f-b111-f498ae099133",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -865,12 +865,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC10",
-                    "x": 12,
+                    "text": "m6",
+                    "x": 19,
                     "y": -25
                 },
                 "locked": false,
-                "name": "PC10",
+                "name": "m6",
                 "node_id": "5da7c749-58a9-4d80-8bc9-7d33b5801da1",
                 "node_type": "vpcs",
                 "port_name_format": "Ethernet{0}",
@@ -1301,75 +1301,31 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "G1",
-                    "x": 67,
+                    "text": "NAT1",
+                    "x": 59,
                     "y": -25
                 },
                 "locked": false,
-                "name": "G1",
-                "node_id": "f568c05b-7254-422f-bd04-43e4b1898e35",
-                "node_type": "cloud",
+                "name": "NAT1",
+                "node_id": "e769fc68-1ffa-4594-ad6f-63c15e044761",
+                "node_type": "nat",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
                 "properties": {
-                    "interfaces": [
-                        {
-                            "name": "Ethernet",
-                            "special": false,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "Wi-Fi",
-                            "special": true,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "Connexion r\u00e9seau Bluetooth",
-                            "special": false,
-                            "type": "ethernet"
-                        },
-                        {
-                            "name": "Ethernet 2",
-                            "special": false,
-                            "type": "ethernet"
-                        }
-                    ],
                     "ports_mapping": [
                         {
-                            "interface": "Ethernet",
-                            "name": "Ethernet",
+                            "interface": "VMware Network Adapter VMnet8",
+                            "name": "nat0",
                             "port_number": 0,
                             "type": "ethernet"
-                        },
-                        {
-                            "interface": "Connexion r\u00e9seau Bluetooth",
-                            "name": "Connexion r\u00e9seau Bluetooth",
-                            "port_number": 1,
-                            "type": "ethernet"
-                        },
-                        {
-                            "interface": "Ethernet 2",
-                            "name": "Ethernet 2",
-                            "port_number": 2,
-                            "type": "ethernet"
-                        },
-                        {
-                            "interface": "Wi-Fi",
-                            "name": "Wi-Fi",
-                            "port_number": 3,
-                            "type": "ethernet"
                         }
-                    ],
-                    "remote_console_host": "",
-                    "remote_console_http_path": "/",
-                    "remote_console_port": 23,
-                    "remote_console_type": "none"
+                    ]
                 },
-                "symbol": ":/symbols/cloud.svg",
-                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "symbol": ":/symbols/nat.svg",
+                "template_id": "df8f4ea9-33b7-3e96-86a2-c39bc9bb649c",
                 "width": 159,
-                "x": -735,
-                "y": -36,
+                "x": -784,
+                "y": -40,
                 "z": 1
             }
         ]
